@@ -1,4 +1,5 @@
-# kickstarter-analysis
+# An Analysis of Kickstart Campaigns
+
 Headers are signified with a #. The number of hashtags indicates the level of the header. For example, ### is a third-level header.
 
 Bullets are added in three ways: a typical bullet with an asterisk, a numbered bullet with numbers, or a hyphenated bullet with a hyphen.
