@@ -2,6 +2,10 @@
 
 ## Overview of Project
 
+Paragraph #1
+
+Paragraph #2
+
 ### Purpose
 
 ## Analysis and Challenges
