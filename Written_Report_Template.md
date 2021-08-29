@@ -41,7 +41,7 @@ The data set that was provided by the client for analysis is a spreadsheet of hi
 The analysis was performed in the following phases: 
 * The data was provided as an excel spreadsheet. Using simple Filters on each column the structure, content, consistency, and completement of the data was assessed.
 
-RESULT: The data was found to be quite clean with no missing data and consistent data entry. 
+     RESULT: The data was found to be quite clean with no missing data and consistent data entry. 
 
 * Individual columns/fields were reviewed, summarized, and ammended as necessary. Counts of the unique entries for Country, Category, Sub-category, and Country were performed.
 
