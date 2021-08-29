@@ -67,7 +67,11 @@ RESULT: See below.
 
 ### Analysis of Outcomes Based on Launch Date
 
+  ![Outcomes Based on Launch Date.](Theater_Outcomes_vs_Launch.png)
+
 ### Analysis of Outcomes Based on Goals
+
+  ![Outcomes Based on Goals.](https://github.com/buddyo1md/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 
