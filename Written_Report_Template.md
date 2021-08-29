@@ -22,7 +22,7 @@ The analysis was performed in the following phases:
      **RESULT**: Limited data sets for many Countries and for many Category/Subcatetories were noted. Date/Time fields were converted. 
      
      
-    ![Number and percent by Country.]
+    ![Number and percent by Country.](https://github.com/buddyo1md/kickstarter-analysis/blob/main/Number%20and%20Percent%20by%20Country.png)
 
 * Additional calculated Field requirements wer identified and performed.
 
