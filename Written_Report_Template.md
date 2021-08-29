@@ -30,17 +30,16 @@
 ~~Explain the purpose of this analysis.~~
 
 ### Purpose
-Louise is committed to creating a play in the U.S. using Kickstarter funding. On behalf of Louise I was asked to do an analysis of an available dataset regarding historical Kickstarter funding campaigns to provide Louise with guidance as to how she can optimize the chances of a successful outcome. In addition, I am to provide her with information speaking to the limitations of this analysis. 
+My customer for this analysis is Louise. Louise is committed to creating a play in the U.S. using Kickstarter funding. On behalf of Louise I was asked to do an analysis of an available dataset regarding historical Kickstarter funding campaigns in order to provide Louise with guidance as to what she may do to optimize the chances of a successful funding campaign. Of particular interest to the client are insights regarding how much funding to seek and whether the time of year (month) of launch influences the outcome. Further, I am to give her my assessment of limitations of the data set and this analysis with recommendations of possible extensions or enhancements to this work. 
 
 ### Background
-The data set provided for analysis is a spreadsheet of results of historic Kickstarter funding efforts covering a time period from 8/2009 through 5/2017. It contains 9 discrete Categories (film & video, music, publishing, technology, games, photography, theater, food, and journalism) further broken down into a total of 41 subcategories.  There are a total of 4,114 records with Subcategory total campaign numbers ranging from 20 (10 different sub-categories) to 1,066 (plays, the subcategory of particular interest to Louise). 
-
-Other possibly important attributes of the data include total pledges and number of pledges, country (presumably where the campaign originated), and dates of open/close of the campaigns. 
-
-All told, there are 
+The data set that was provided by the client for analysis is a spreadsheet of historic results Kickstarter funding efforts from 21 countries covering a time period from 8/2009 through 5/2017. The dataset consists of 4,114 records. Each record/campaign includes specification of a Category and Sub-category type. Thare are 9 discrete Categories (film & video, music, publishing, technology, games, photography, theater, food, and journalism) further broken down into a total of 41 subcategories. Subcategory total campaign numbers range from 20 (10 unique sub-categories) to 1,066 (plays, the subcategory of interest to Louise). Other record attributes include total pledges and number of pledges, and the dates of opening/closing of the campaigns. 
 
 ## Analysis and Challenges
 ~~Explain how you performed your analysis using images and links to code, as well as any challenges you encountered and how you overcame them. If you had no challenges, describe any possible challenges or difficulties that could be encountered.~~
+
+The analysis was performed in the following phases: 
+* THe data was provided as an excel spreashet. Using simple Filters on each column, the structure, content, consistency, and completement of the data was assessed. 
 
 ### Analysis of Outcomes Based on Launch Date
 
