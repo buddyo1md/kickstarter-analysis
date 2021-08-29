@@ -39,7 +39,8 @@ The data set that was provided by the client for analysis is a spreadsheet of hi
 ~~Explain how you performed your analysis using images and links to code, as well as any challenges you encountered and how you overcame them. If you had no challenges, describe any possible challenges or difficulties that could be encountered.~~
 
 The analysis was performed in the following phases: 
-* THe data was provided as an excel spreashet. Using simple Filters on each column, the structure, content, consistency, and completement of the data was assessed. 
+* THe data was provided as an excel spreadsheet. Using simple Filters on each column the structure, content, consistency, and completement of the data was assessed. 
+** The data was found to be quite clean with no missing data and consistent data entry. 
 
 ### Analysis of Outcomes Based on Launch Date
 
