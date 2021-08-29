@@ -36,31 +36,31 @@ My customer for this analysis is Louise. Louise is committed to creating a play 
 The data set that was provided by the client for analysis is a spreadsheet of historic results Kickstarter funding efforts from 21 countries covering a time period from 8/2009 through 5/2017. The dataset consists of 4,114 records. Each record/campaign includes specification of a Category and Sub-category type. Thare are 9 discrete Categories (film & video, music, publishing, technology, games, photography, theater, food, and journalism) further broken down into a total of 41 subcategories. Subcategory total campaign numbers range from 20 (10 unique sub-categories) to 1,066 (plays, the subcategory of interest to Louise). Other record attributes include total pledges and number of pledges, and the dates of opening/closing of the campaigns. 
 
 ## Analysis and Challenges
-~~Explain how you performed your analysis using images and links to code, as well as any challenges you encountered and how you overcame them. If you had no challenges, describe any possible challenges or difficulties that could be encountered.~~
+~~Explain how you performed your analysis using images and links to code, as well as any challenges you encountered and how you overcame them. If you had no challenges, describe any possible challenges or difficulties that could be encountered.The overview of the analysis is well described with screenshots (2 pt).
+Challenges or difficulties that were encountered, and how they were overcome, are well explained. If there were no difficulties, describe any possible challenges or difficulties that could be encountered (2 pt).~~
 
 The analysis was performed in the following phases: 
 * The data was provided as an excel spreadsheet. Using simple Filters on each column the structure, content, consistency, and completement of the data was assessed.
 
-       RESULT: The data was found to be quite clean with no missing data and consistent data entry. 
+     RESULT: The data was found to be quite clean with no missing data and consistent data entry. 
 
 * Individual columns/fields were reviewed, summarized, and ammended as necessary. Counts of the unique entries for Country, Category, Sub-category, and Country were performed.
 
-       RESULT: Limited data sets for many Countries and for many Category/Subcatetories were noted. Date/Time fields were converted. 
+     RESULT: Limited data sets for many Countries and for many Category/Subcatetories were noted. Date/Time fields were converted. 
 
 * Additional calculated Field requirements wer identified and performed.
 
-       RESULT: Added fields: Duration (deadline - launch); Percentage Funded (pledged / goal); average_donation (backers_count / pledged)
+     RESULT: Added fields: Duration (deadline - launch); Percentage Funded (pledged / goal); average_donation (backers_count / pledged)
 
 * A pivot-table was constructed and used to do a high-level overview of a variety of permutations seeking any overarching insights into the breadth, depth, and consistency of the data. 
 
-       RESULT: Appropriateness of the clients initial focus on the attributes of funding amount and Launch Date (rolled up by month) were confirmed. Additional helpful analyses were identified. (See below - Result #4.)
+     RESULT: Appropriateness of the clients initial focus on the attributes of funding amount and Launch Date (rolled up by month) were confirmed. Additional helpful analyses were identified. (See below - Result #4.)
 
 * Specific analyses requested by the Client were performed. 
 
 RESULT: See below. 
 
 ### Analysis of Outcomes Based on Launch Date
-
 
 ### Analysis of Outcomes Based on Goals
 
@@ -71,17 +71,29 @@ RESULT: See below.
 ### Result #1
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
+1. Total campaigns are fairly steady through the year with the exceptions of a spike in May/June/July and a significant drop off in December. The NUMBER of failed campaigns is fairly constant so a surge in successful campaigns launched during the May/June/July period reflects a receptivity of the funders to submissions during this time. 
+2. Even in the WORST month with respect to the number of successful campaigns (December) there is still an equal number of successful campaigns to failed campaigns. Additonal attributes of these campaigns are needed to determine whether there are compelling reasons to consider an effort launched in this timeframe. (This is true of many of the takeaways from this analysis. See Result #4 below.)
+
 ### Result #2
 - What can you conclude about the Outcomes based on Goals?
+
+1. In general, there is a trend toward lower success rates with higher goals. That makes intutive sense but must be interpreted in light of the next point. 
+2. Counter to the trend described above, there appears to be a "sweet-spot" with respect to successful funding in the $35k to $50k range where success percentages of 70% to 80% encountered. This needs to be examined further to determine whether other factors can be found that might explain this counter-trend. 
+3. Apparent anomolies such as 100% success for campaigns with goals of $45 to $50k must be scrutized closely as they can represent outliers. In this case it is a single campaign that was successful. 
 
 ### Result #3
 - What are some limitations of this dataset?
 
+1. pledged and backer_count totals do not provide significant insight into the nature of the backers; i.e. whether many small pledges or a few major pledges represent the greatest opportunity. This has implications on how to package and present the opportunity. Individual donor records or statistical analysis of such data could be impactful on decision-making. 
+2. Some fields of the data set are not defined (staff_pick (T/F) and spotlight (T/F)). These may represent impactful attributes that could influence campaign decisions.
+3. Multi-factorial analysis of the data set quickly results in "cohorts" that are too small to provide statistically meaningful results. Larger data sets can address this to some degree. If some of the ideas regarding further analysis of this data set are pursued, it is important to be watchful for the creation of data that my not meet minimum standards of statistical significance. (Be careful not to over-analyze this and any other dataset.)
+
 ### Result #4
-- What are some other possible tables and/or graphs that we could create?
-- Influence of Staff-pick and spotlight
-- Influence of Year
-- Correlation of backers_count with 
+
+What are some other possible tables and/or graphs that we could create?
+- Parallel / independent analysis of the influence of staff-pick and spotlight
+- Influence of Year separate and distinct from Month. 
+- Correlation of backers_count with other factors
 
 ### Additional Concerns noted:
 1. Foundational concerns with the veractity of the data set. I have no ability to speak to the quality of the data. 
