@@ -1,33 +1,6 @@
-#Original Template Text
-
 # Kickstarting with Excel
 
 ## Overview of Project
-
-### Purpose
-
-## Analysis and Challenges
-
-### Analysis of Outcomes Based on Launch Date
-
-### Analysis of Outcomes Based on Goals
-
-### Challenges and Difficulties Encountered
-
-## Results
-
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
-
-- What can you conclude about the Outcomes based on Goals?
-
-- What are some limitations of this dataset?
-
-- What are some other possible tables and/or graphs that we could create?
-
-# Kickstarting with Excel
-
-## Overview of Project
-~~Explain the purpose of this analysis.~~
 
 ### Purpose
 My customer for this analysis is Louise. Louise is committed to creating a play in the U.S. using Kickstarter funding. On behalf of Louise I was asked to do an analysis of an available dataset regarding historical Kickstarter funding campaigns in order to provide Louise with guidance as to what she may do to optimize the chances of a successful funding campaign. Of particular interest to the client are insights regarding how much funding to seek and whether the time of year (month) of launch influences the outcome. Further, I am to give her my assessment of limitations of the data set and this analysis with recommendations of possible extensions or enhancements to this work. 
@@ -36,8 +9,6 @@ My customer for this analysis is Louise. Louise is committed to creating a play 
 The data set that was provided by the client for analysis is a spreadsheet of historic results Kickstarter funding efforts from 21 countries covering a time period from 8/2009 through 5/2017. The dataset consists of 4,114 records. Each record/campaign includes specification of a Category and Sub-category type. Thare are 9 discrete Categories (film & video, music, publishing, technology, games, photography, theater, food, and journalism) further broken down into a total of 41 subcategories. Subcategory total campaign numbers range from 20 (10 unique sub-categories) to 1,066 (plays, the subcategory of interest to Louise). Other record attributes include total pledges, number of pledges, the dates of opening/closing of the campaigns, and others See the full list of fields in the Addendum. 
 
 ## Analysis and Challenges
-~~Explain how you performed your analysis using images and links to code, as well as any challenges you encountered and how you overcame them. If you had no challenges, describe any possible challenges or difficulties that could be encountered.The overview of the analysis is well described with screenshots (2 pt).
-Challenges or difficulties that were encountered, and how they were overcome, are well explained. If there were no difficulties, describe any possible challenges or difficulties that could be encountered (2 pt).~~
 
 The analysis was performed in the following phases: 
 * The data was provided as an excel spreadsheet. Using simple filters on each field the structure, content, consistency, and completeness of the data was assessed.
@@ -85,7 +56,6 @@ There was a fair amount of "tweaking" of the <=, >=, <> syntax for referential c
 
   ![Referential formulas.](https://github.com/buddyo1md/kickstarter-analysis/blob/main/Referential_category_calculations.png)
  
-
 ## Results
 
 ### Result #1
