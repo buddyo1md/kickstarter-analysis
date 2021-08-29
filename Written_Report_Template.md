@@ -44,11 +44,14 @@ The analysis was performed in the following phases:
 
      RESULT: The data was found to be quite clean with no missing data and consistent data entry. 
      
-     ![Cells showing no empty cells.](NoEmptyCells.png)
+     ![Screenshot showing no empty cells in the data set.](NoEmptyCells.png)
 
 * Individual columns/fields were reviewed, summarized, and ammended as necessary. Counts of the unique entries for Country, Category, Sub-category, and Country were performed.
 
      RESULT: Limited data sets for many Countries and for many Category/Subcatetories were noted. Date/Time fields were converted. 
+     
+     
+    ![Number and percent by Country.]
 
 * Additional calculated Field requirements wer identified and performed.
 
