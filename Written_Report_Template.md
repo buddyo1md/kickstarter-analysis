@@ -1,7 +1,7 @@
 # Kickstarting with Excel
 
 ## Overview of Project
-~~Explain the purpose of this analysis.
+~~Explain the purpose of this analysis.~~
 
 ### Purpose
 Louise is committed to creating a play in the U.S. using Kickstarter funding. On behalf of Louise I was asked to do an analysis of an available dataset regarding historical Kickstarter funding campaigns to provide Louise with guidance as to how she can optimize the chances of a successful outcome. In addition, I am to provide her with information speaking to the limitations of this analysis. 
