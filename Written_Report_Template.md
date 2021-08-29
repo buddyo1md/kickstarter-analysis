@@ -42,38 +42,49 @@ Challenges or difficulties that were encountered, and how they were overcome, ar
 The analysis was performed in the following phases: 
 * The data was provided as an excel spreadsheet. Using simple filters on each field the structure, content, consistency, and completeness of the data was assessed.
 
-     RESULT: The data was found to be quite clean with no missing data and consistent data entry. 
+     **RESULT**: The data was found to be quite clean with no missing data and consistent data entry. 
      
      ![Screenshot showing no empty cells in the data set.](NoEmptyCells.png)
 
 * Individual columns/fields were reviewed, summarized, and ammended as necessary. Counts of the unique entries for Country, Category, Sub-category, and Country were performed.
 
-     RESULT: Limited data sets for many Countries and for many Category/Subcatetories were noted. Date/Time fields were converted. 
+     **RESULT**: Limited data sets for many Countries and for many Category/Subcatetories were noted. Date/Time fields were converted. 
      
      
     ![Number and percent by Country.]
 
 * Additional calculated Field requirements wer identified and performed.
 
-     RESULT: Added fields: Duration (deadline - launch); Percentage Funded (pledged / goal); average_donation (backers_count / pledged)
+     **RESULT**: Added fields: Duration (deadline - launch); Percentage Funded (pledged / goal); average_donation (backers_count / pledged)
 
 * A pivot-table was constructed and used to do a high-level overview of a variety of permutations seeking any overarching insights into the breadth, depth, and consistency of the data. 
 
-     RESULT: Appropriateness of the clients initial focus on the attributes of funding amount and Launch Date (rolled up by month) were confirmed. Additional helpful analyses were identified. (See below - Result #4.)
+     **RESULT**: Appropriateness of the clients initial focus on the attributes of funding amount and Launch Date (rolled up by month) were confirmed. Additional helpful analyses were identified. (See below - Result #4.)
 
 * Specific analyses requested by the Client were performed. 
 
-RESULT: See below. 
+     **RESULT**: See below. 
 
 ### Analysis of Outcomes Based on Launch Date
+
+In creating the 
 
   ![Outcomes Based on Launch Date.](Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 
+This analysis was fairly straightforward but I took on the additional task of having the calculations done on ranges that were referential, rather than hard-coded into the formulas. That challenge is described in more detial below. 
+
+The Outcomes Based on Goals analysis was relatively straightforward. This analysis in particular demonstrates the value of demonstrating the information to the client with the "live" spreadsheet rather than a written report. 
+
   ![Outcomes Based on Goals.](https://github.com/buddyo1md/kickstarter-analysis/blob/main/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
+
+There was a fair amount of "tweaking" of the <=, >=, <> syntax for referential calculations.
+
+  ![Referential formulas.](https://github.com/buddyo1md/kickstarter-analysis/blob/main/Referential_category_calculations.png)
+ 
 
 ## Results
 
